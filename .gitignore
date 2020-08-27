@@ -1,2 +1,6 @@
 test/node_modules
 test/package-lock.json
+
+test/newman
+test/script/collection.json
+test/script/environment.json
