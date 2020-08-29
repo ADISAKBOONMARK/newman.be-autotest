@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.test.js",
   "scripts": {
-    "test": "newman run ./script/collection.json -e ./script/environment.json -r cli,junit,html,htmlextra --reporter-junit-export test-report/junit.xml --reporter-html-export test-report/paper.html --reporter-htmlextra-export test-report/extra.html"
+    "test": "newman run ./script/collection.json -e ./script/environment.json -r cli,junit,html,htmlextra --reporter-junit-export ./test-report/junit.xml --reporter-html-export ./test-report/paper.html --reporter-htmlextra-export ./test-report/extra.html"
   },
   "author": "",
   "license": "ISC",
