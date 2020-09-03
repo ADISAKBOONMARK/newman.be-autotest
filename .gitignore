@@ -1,0 +1,6 @@
+automate-test/node_modules
+automate-test/package-lock.json
+
+automate-test/test-report
+automate-test/script/collection.json
+automate-test/script/environment.json

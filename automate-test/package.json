@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.test.js",
+  "scripts": {
+    "test": "newman run ./script/collection.json -e ./script/environment.json -r cli,junit,html,htmlextra --reporter-junit-export ./test-report/junit.xml --reporter-html-export ./test-report/paper.html --reporter-htmlextra-export ./test-report/extra.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.1.2",
+    "newman-reporter-html": "^1.0.5",
+    "newman-reporter-htmlextra": "^1.19.0"
+  }
+}
